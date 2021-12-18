@@ -1,0 +1,22 @@
+# range bereich
+
+
+a = (1..7).to_a
+puts a # [1,2,3,4,5,6,7]
+
+
+age = 42
+
+case age
+when 0..14
+    puts "child"
+when 15..30
+    puts "young person"
+when 31..60
+    puts "reife person"
+else 
+    puts "das Ende ist nah"
+end
+
+
+# bei drei punkten die letzte zahl nicht included 
