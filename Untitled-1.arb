@@ -1,0 +1,30 @@
+puts("Hello World")
+print("programm")   # Comment in Ruby    =
+=begin 
+für Multiline Commends 
+
+=end 
+
+
+x=8   #Variablen Deklaration
+
+MyVar=5;   # Variablen die am Anfang groß geschrieben sind sind Konstant / Java Final und nichtmehr änderbar
+
+MyVar=312;
+
+
+puts(MyVar)
+
+
+
+y = 1.58 #float
+z = "Hello" # String
+
+puts " He is #{y} cm groß"
+
+# Math Operationen wie in Java
+
+a = 25
+b = 8
+x = a/b
+puts x+b

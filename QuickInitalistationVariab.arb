@@ -1,0 +1,41 @@
+x,y,z = 10,20,30 
+
+
+# quick initaliton
+
+ puts (y)
+
+
+ # Swap Deklaration
+
+ x,y = y,x 
+
+ # Ruby rechnet wie richtige Mathmetak
+
+ x=(3+2) * 4     # + höchste Prio dann * dann % dann / 
+ puts x
+
+
+ text =  ' Rubi\ s Syntax is fun'
+ puts text
+
+text = "Hello \n World "   # \n um /br einzufügen 
+ puts text
+
+
+ puts "The text is #{text}"
+
+
+ a = "hi"
+ b = 'bye'
+ y = a+b #concat von string
+
+ puts '7'*2    # 77  
+
+
+x = gets
+puts x
+
+puts "Entr your Name"
+
+puts "Welcome, #{name}"

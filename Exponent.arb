@@ -1,0 +1,23 @@
+# Exponent
+
+a = 2 
+b = 5
+
+puts a**b
+
+# this raises 2 to the power of 5 ouptuts 32      *  2 * 2 * 2 ... 
+
+
+
+x +=y # x=x+y
+x -= y # x=x-y
+x *= y # x=x*y
+x /= y # x=x/y
+# same mit modulator
+x **= y # x=x**y
+
+a=8
+a /= 3
+puts 4%a   # Ergebniss 0
+
+

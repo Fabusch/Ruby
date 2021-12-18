@@ -1,0 +1,30 @@
+#num = 8
+#if num == 3
+ #   puts "Number is 3"
+#elsif num == 12
+#    puts = "Number is 12"
+#elsif num == 8                 # Else if in Java // Elif in Python 
+#    puts ="Not found"
+#else
+#    puts="hm"
+#end
+
+
+
+# Unless Condition is das Gegenteil von if also like if not !
+
+a = 42
+unless a < 10
+    puts "Yes"
+else
+    puts "No"
+end
+
+
+x = 5
+unless x < 8
+    x += 3
+else
+    x +=2
+end
+puts x

@@ -1,0 +1,15 @@
+x = 0
+
+while x < 10
+    puts x
+    x += 1
+end
+
+
+# Until Loop will be return if the condition is false
+
+a = 0
+until a > 10
+    puts "a = #{a}"
+    a += 2
+end

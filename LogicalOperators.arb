@@ -1,0 +1,18 @@
+a = 42
+b = 8
+if a > 7 && b < 11
+    puts "Yes"
+end
+
+
+a = 5
+if a > 6 || a < 8   # || or  in Ruby 
+  puts a/2
+else
+  puts a
+end
+
+
+# The not Operator
+a = 7
+puts !(a<5)   # Outputs true or False is the Conditiion is right or false..

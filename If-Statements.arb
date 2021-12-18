@@ -1,0 +1,41 @@
+a = 42
+
+if a > 8                ### in Java if  / else / return
+    puts "Yes"
+end
+
+
+
+num = 16
+
+if num > 7 
+    puts "Greather than 7"
+    if num < 30
+            puts "aber nicht größer als 30"
+    end
+end
+
+
+num = 8
+if num > 4
+    puts "4"
+    if num < 7
+        puts "7"
+        if num == 8
+            puts "8"
+        end
+    end
+end
+
+
+# Same with if else statements
+
+age = 15
+
+if age < 18
+    puts "Du bist nicht volljährig ehy"
+else 
+    puts " Unnormal prost"
+end
+
+
