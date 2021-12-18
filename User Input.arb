@@ -4,36 +4,17 @@ puts x
 puts "Entr your Name"
 name = gets.chomp 
 puts "Welcome, #{name}"
-
-
-
 # Funktioniert nur wenn über cmd abgerufen wird 
-
-
 # Boolean
-
-
 isOnline = true
-
 isOffline = false
-
 # == Equal
-
 a = 5 
-
 b = 8
 puts a == b #outputs false 
-
-
-
 a = 8 
-
 b = 7
-
 puts a != b #true  ! #nicht gleich Vergleichsoperator 
-
-
-
 a=7
 b=a/2
 puts b == (a-4) #Answer True da 3.5 in ein integer umgewandelt wird
