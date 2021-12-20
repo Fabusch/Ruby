@@ -1,0 +1,55 @@
+a = [1, 2, 3]
+b = [4, 5]
+
+res = a + b #Verbindet einfach die Arrays Inhalt ist dabei egal hier stringend aber i.d.r nicht
+ 
+#print res   
+
+
+c = [4, 5, 6]
+d = [5, 8, 9]
+
+res1 = c - d   # Löscht alle Elemente in c die die nur in einem Element vorkommen
+puts res1 # 
+
+
+
+# Boolean Operations Avaible
+
+e = [2, 3, 7, 8]
+f = [2, 7, 9]
+
+puts e & f # Gibt wieder was in beiden vorkommt also hier 2, 7 
+
+
+
+# |  Operator return a new Array by joining the Arrays and removing duplicates !
+
+a = [2, 3, 7, 8]
+b = [2, 7, 9]
+
+print a | b # [2,3,7,8,9]
+
+# the reverse method return the orinal array in reverse order
+
+
+arr = [ 5, 4, 8]
+res = arr.reverse
+print res
+
+
+# if u use it without ! and initalziant an new varb for this its only workes one time
+
+
+
+# array.length to show the number of array elements
+# array.sort  return a new array with sorted elements
+#array.uniq returns a new array with duplicate values removed from Array
+#array.freeze  this array is not more changebel 
+
+
+
+arr = ["a", "b", "c"]
+for x in arr
+    puts "Value: in #{x}"
+end

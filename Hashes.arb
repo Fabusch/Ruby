@@ -1,0 +1,23 @@
+# Hashes dienen dazu Schlüssel Wertparre zu bilden
+
+ages = { "David" => 28, "Amy" => 33 , "Peter" => 18 }
+
+puts ages ["Amy"]
+
+
+
+# In Ruby werden zu Datenmanipulationen Symbole verwendet
+
+
+a =  :id
+
+
+course = {:name=>"Ruby", :score => 80}
+puts course [:name]
+
+
+car = {brand:"BMW", year:2016, color:"red", length: 5,23}
+car.delete(:length)
+puts. car.values
+
+#There alot of Hashes Manipalution in Ruby  .delete .key .invert .keys .values .length 
