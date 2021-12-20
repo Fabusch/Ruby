@@ -1,4 +1,23 @@
 items = ["Apple","Birnen","Pflaumen"]
-
-
+nums = [2,4,6,8]
 puts items[0]   # Notice Arrays starts by Zero!  
+arr = [5, "Dave", 15.88, false]   # Arrays can had much types of elements
+arr << 8 # Include a New Number 8 in the array arr
+puts arr
+
+arr.insert(2,8) # .insert to choose the Array Position
+
+a = [2, 6, 9]
+a << 3
+a[1] += a[0]
+puta a=[1]
+
+
+
+arr = [1, 2, 3]
+arr.pop  # POP löscht das letzte Element
+print arr
+
+arr = [2,4,6,8]
+arr.delete_at(2)
+print arr
