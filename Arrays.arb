@@ -1,0 +1,4 @@
+items = ["Apple","Birnen","Pflaumen"]
+
+
+puts items[0]   # Notice Arrays starts by Zero!  
