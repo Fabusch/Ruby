@@ -1,0 +1,21 @@
+# Iteratoren dienen ähnlich wie Schleifen 
+
+
+arr = [2, 4, 6]
+arr.each do |x|
+    puts x
+end
+# Iterators are used to create Loops 
+# The each iterator is one of the most used.
+
+#|| Pipe Symbol around the Variable x
+
+# We can use this do calculate the Sum of all Elements in a Array like this.
+
+arr = [2, 4, 6]
+sum = 0
+arr.each do |x|
+    sum += x
+end
+
+puts sum #12

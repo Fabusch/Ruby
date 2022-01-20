@@ -1,0 +1,19 @@
+cars = {
+    bmw: {year:2016, color:"red"},
+    mercedes: {year:2020, color:"silver"},
+    porsche: {year:1999, color:"white"}
+}
+
+puts cars[:bmw][:color]
+
+# Outputs red
+
+
+test = {
+    a:"A",
+    b:{c:"C",d:"D"}
+}
+
+puts test.length 
+
+# Output 2 

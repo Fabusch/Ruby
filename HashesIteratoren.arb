@@ -1,0 +1,23 @@
+sizes = {svga:800, hd:1333, uhd:3840}
+
+sizes.each do |key,value|
+    puts "#{key}=>#{value}"
+end
+
+
+
+# do and end can replace by { } like this Example  still not worked
+
+#h = {a:8, b:9, c:18}
+#sum = 0
+#h.each { |key,value| sum+=val }
+#puts sum 
+
+
+#h = {a: 8, b: 9, c: 18} 
+#sum = 0 
+#h.each { |key, val| puts "now sum is: #{sum += val}"} 
+#puts sum 
+#end
+
+# still not work
