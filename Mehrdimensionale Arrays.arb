@@ -1,0 +1,10 @@
+rot = ["Bisasam", "Taubsi"]
+blau = ["Turtok", "Aquamen"]
+gelb = ["Pickahu", "Glumanda"]
+
+teams  = [["Bisasam", "Taubsi"],["Turtok", "Aquamen"],["Pickahu", "Glumanda"]]
+
+randomTeam1 = rand(0..2)  # rand gibt Random Ergebniss aus da nur 3 Teams 0..2 
+randomTeams2 = randomTeam1  - 1
+
+puts "Es kämpft #{teams[randomTeam1][0]} gegen #{teams[randomTeams2][0]}"
