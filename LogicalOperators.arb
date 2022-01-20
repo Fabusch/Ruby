@@ -17,4 +17,4 @@ test for github
 
 # The not Operator
 a = 7
-puts !(a<5)   # Outputs true or False is the Conditiion is right or false..
+puts !(a<5)   # Outputs true or False is the Conditiion is right or false..> 
